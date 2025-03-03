@@ -3,6 +3,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { MongoClient } = require('mongodb');
 const cors = require('cors');
+require('dotenv').config();
 
 const app = express();
 app.use(express.json());
